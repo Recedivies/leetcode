@@ -53,8 +53,8 @@ Since divisors[0] and divisors[1] both have the maximum divisibility score, we r
 
 **Constraints:**
 
-- `1 <= nums.length, divisors.length <= 1000`
-- `1 <= nums[i], divisors[i] <= 10^9`
+- 1 <= nums.length, divisors.length <= 1000
+- 1 <= nums[i], divisors[i] <= 10^9
 
 ## Approach 1: Brute Force
 
@@ -62,7 +62,7 @@ Since divisors[0] and divisors[1] both have the maximum divisibility score, we r
 <TabItem value="golang" label="Go">
 <SolutionAuthor name="@Recedivies"/>
 
-```golang
+```go
 func maxDivScore(nums []int, divisors []int) int {
     var ans int = divisors[0];
     var currCount int = 0;
