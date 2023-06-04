@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkleetcode=self.webpackChunkleetcode||[]).push([[9182],{6864:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/leetcode/blog/tags/hola","allTagsPath":"/leetcode/blog/tags","count":1}')}}]);
