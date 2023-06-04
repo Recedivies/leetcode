@@ -8,6 +8,34 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  display: block;
+  background-image: url("/static/img/banner.png");
+  position: relative;
+  background-size: cover;
+}
+
+.heroBanner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.heroBanner img {
+  margin: 0px 20px;
+}
+
+.highlightedColor {
+  color: #f7f8f8;
+  position: relative;
+}
+
+.tagline {
+  color: #f7f8f8;
+  position: relative;
 }
 
 @media screen and (max-width: 996px) {
@@ -17,7 +45,22 @@
 }
 
 .buttons {
-  display: flex;
+  --ifm-button-size-multiplier: 1.6;
+  display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  position: relative;
+}
+
+.buttons a,
+.buttons a:hover {
+  color: #fff !important;
+  background: #032341;
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.buttons a:last-of-type {
+  margin-top: 20px;
 }

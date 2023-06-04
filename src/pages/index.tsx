@@ -10,17 +10,21 @@ import styles from "./index.module.css";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <section className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title">
+          <span className={styles.highlightedColor}>{siteConfig.title}</span>
+        </h1>
+        <p className="hero__subtitle">
+          <span className={styles.tagline}>{siteConfig.tagline}</span>
+        </p>
         <div className={styles.buttons}>
           <Link className="button button--secondary" to="/solutions/">
-            LeetCode Solution
+            LeetCode Solutions
           </Link>
         </div>
       </div>
-    </header>
+    </section>
   );
 }
 
