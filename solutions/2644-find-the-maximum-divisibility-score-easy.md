@@ -60,7 +60,7 @@ Since divisors[0] and divisors[1] both have the maximum divisibility score, we r
 
 <Tabs>
 <TabItem value="golang" label="Go">
-<SolutionAuthor name="@Recedivies"/>
+<SolutionAuthor name="@Recedivies" link="https://github.com/Recedivies" />
 
 ```go
 func maxDivScore(nums []int, divisors []int) int {
