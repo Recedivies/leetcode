@@ -85,4 +85,34 @@ func maxDivScore(nums []int, divisors []int) int {
 ```
 
 </TabItem>
+
+<TabItem value="cpp" label="C++">
+<SolutionAuthor name="@Recedivies" link="https://github.com/Recedivies" />
+
+```cpp
+class Solution {
+public:
+    int maxDivScore(vector<int>& nums, vector<int>& divisors) {
+        int ans = divisors[0];
+        int currCount = 0;
+        for (int div: divisors) {
+            int cnt = 0;
+            for (int n: nums) {
+                if (n % div == 0) {
+                    cnt++;
+                }
+            }
+            if (currCount < cnt) {
+                currCount = cnt;
+                ans = div;
+            } else if (currCount == cnt) {
+                ans = min(ans, div);
+            }
+        }
+        return ans;
+    }
+};
+```
+
+</TabItem>
 </Tabs>
