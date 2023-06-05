@@ -8,7 +8,7 @@ const katex = import("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Ahmadhi Prananta Hastiputra - LeetCode",
+  title: "Ahmadhi Prananta - LeetCode",
   tagline: "Crack the Code: Unleashing LeetCode Solutions",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -72,10 +72,10 @@ const config = {
       image: "img/docusaurus-social-card.jpg",
       navbar: {
         title: "Ahmadhi Prananta",
-        logo: {
-          alt: "Ahmadhi Prananta Logo",
-          src: "img/logo.svg",
-        },
+        // logo: {
+        //   alt: "Ahmadhi Prananta Logo",
+        //   src: "img/logo.svg",
+        // },
         items: [
           {
             label: "📖 Solutions",
