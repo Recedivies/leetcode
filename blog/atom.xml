@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/leetcode/blog</id>
-    <title>Ahmadhi Prananta Hastiputra - LeetCode Blog</title>
+    <title>Ahmadhi Prananta - LeetCode Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/leetcode/blog"/>
-    <subtitle>Ahmadhi Prananta Hastiputra - LeetCode Blog</subtitle>
+    <subtitle>Ahmadhi Prananta - LeetCode Blog</subtitle>
     <icon>https://github.com/leetcode/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
