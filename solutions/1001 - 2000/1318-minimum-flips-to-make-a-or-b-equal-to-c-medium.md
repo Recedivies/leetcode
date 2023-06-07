@@ -42,6 +42,8 @@ Output: 0
 - $1 \le b \le 10^9$
 - $1 \le c \le 10^9$
 
+## Approach 1: Bit Manipulation
+
 <Tabs>
 <TabItem value="cpp" label="C++">
 <SolutionAuthor name="@Recedivies" link="https://github.com/Recedivies" />
