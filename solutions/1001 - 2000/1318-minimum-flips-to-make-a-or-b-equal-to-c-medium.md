@@ -51,7 +51,7 @@ class Solution {
 public:
     int minFlips(int a, int b, int c) {
         int ans = 0;
-        for (int i = 0; i \le 30; i++) {
+        for (int i = 0; i <= 30; i++) {
             bool bitA = a & (1<<i) ? 1 : 0;
             bool bitB = b & (1<<i) ? 1 : 0;
             bool bitC = c & (1<<i) ? 1 : 0;
