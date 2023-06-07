@@ -17,6 +17,8 @@ npm run start
 ````md
 ## Approach 1: <APPROACH_NAME>
 
+<EditorialAuthor name="@YOUR_ALIAS" />
+
 // TODO: Detailed Explanations / Line by Line Explanations in code
 // TODO: Complexity Analysis
 
@@ -48,6 +50,8 @@ npm run start
 </Tabs>
 
 ## Approach 2: <APPROACH_NAME> (ADD IT IF NECESSARY)
+
+<EditorialAuthor name="@YOUR_ALIAS" />
 
 // TODO: Detailed Explanations / Line by Line Explanations in code
 // TODO: Complexity Analysis
