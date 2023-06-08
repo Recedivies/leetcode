@@ -43,7 +43,7 @@ Explanation: The smallest positive integer 1 is missing.
 - $1 <= nums.length <= 10^5$
 - $-2^{31} <= nums[i] <= 2^{31} - 1$
 
-## Approach 1: Bit Manipulation
+## Approach 1: Array Manipulation
 
 <Tabs>
 <TabItem value="cpp" label="C++">
