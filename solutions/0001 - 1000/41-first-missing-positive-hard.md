@@ -53,11 +53,9 @@ Explanation: The smallest positive integer 1 is missing.
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
-        int ans = -1;
         int n = nums.size();
         for (int i = 0; i < n; i++) {
             if (nums[i] <= 0 || nums[i] > n || nums[i] == i + 1) continue;
-
             // 1 <= nums[i] <= n
             int prev = nums[i];
             int cur = nums[prev - 1];
@@ -70,11 +68,10 @@ public:
         }
         for (int i = 0; i < nums.size(); i++) {
             if (nums[i] != i + 1) {
-                ans = i + 1;
-                break;
+                return i + 1;
             }
         }
-        return ans == -1 ? n + 1 : ans;
+        return -1;
     }
 };
 ```
