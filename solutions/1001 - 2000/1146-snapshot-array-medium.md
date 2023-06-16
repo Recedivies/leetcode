@@ -40,7 +40,7 @@ snapshotArr.get(0,0);  // Get the value of array[0] with snap_id = 0, return 5
 - $ 0 \le snap_id < $ (the total number of times we call $snap()$)
 - At most $5 * 10^4$ calls will be made to `set`, `snap`, and `get`.
 
-## Approach 1: Bit Manipulation
+## Approach 1: Binary Search
 
 <Tabs>
 <TabItem value="cpp" label="C++">
